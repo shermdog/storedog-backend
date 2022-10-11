@@ -7,7 +7,7 @@
 **/**/public/spree
 **/**/coverage
 **/**/spec/tmp
-**/**/storage
+#**/**/storage
 .idea
 .pt
 .ruby-gemset
