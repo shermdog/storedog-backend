@@ -1,0 +1,115 @@
+---
+schema-version: v2
+dd-service: ads
+team: partner
+contacts:
+  - type: slack
+    contact: https://exampleincidents.slack.com/archives/C01EWN6319S
+links:
+  - name: Common Operations
+    type: runbook
+    url: https://examplehq.atlassian.net/wiki/
+repos:
+  - name: Source
+    provider: github
+    url: https://github.com/shermdog/storedog-backend/tree/ecs
+docs:
+  - name: Deployment Information
+    provider: link
+    url: https://docs.datadoghq.com/
+  - name: Partner Contracts
+    provider: link
+    url: https://docs.datadoghq.com/
+tags: []
+---
+schema-version: v2
+dd-service: discounts
+team: partner
+contacts:
+  - type: slack
+    contact: https://exampleincidents.slack.com/archives/C01EWN6319S
+links:
+  - name: Common Operations
+    type: runbook
+    url: https://examplehq.atlassian.net/wiki/
+repos:
+  - name: Source
+    provider: github
+    url: https://github.com/shermdog/storedog-backend/tree/ecs
+docs:
+  - name: Deployment Information
+    provider: link
+    url: https://docs.datadoghq.com/
+  - name: Partner Contracts
+    provider: link
+    url: https://docs.datadoghq.com/
+tags: []
+---
+schema-version: v2
+dd-service: store-backend
+team: backend
+contacts:
+  - type: slack
+    contact: https://exampleincidents.slack.com/archives/C01EWN6319S
+links:
+  - name: Common Operations
+    type: runbook
+    url: https://examplehq.atlassian.net/wiki/
+repos:
+  - name: Source
+    provider: github
+    url: https://github.com/shermdog/storedog-backend/tree/ecs
+docs:
+  - name: Deployment Information
+    provider: link
+    url: https://docs.datadoghq.com/
+  - name: Runbook
+    provider: link
+    url: https://docs.datadoghq.com/
+tags: []
+---
+schema-version: v2
+dd-service: postgres
+team: dba
+contacts:
+  - type: slack
+    contact: https://exampleincidents.slack.com/archives/C01EWN6319S
+links:
+  - name: Common Operations
+    type: runbook
+    url: https://examplehq.atlassian.net/wiki/
+repos:
+  - name: Source
+    provider: github
+    url: https://github.com/shermdog/storedog-backend/tree/ecs
+docs:
+  - name: Deployment Information
+    provider: link
+    url: https://docs.datadoghq.com/
+  - name: Schema
+    provider: link
+    url: https://docs.datadoghq.com/
+tags: []
+---
+schema-version: v2
+dd-service: store-worker
+team: web
+contacts:
+  - type: slack
+    contact: https://exampleincidents.slack.com/archives/C01EWN6319S
+links:
+  - name: Common Operations
+    type: runbook
+    url: https://examplehq.atlassian.net/wiki/
+repos:
+  - name: Source
+    provider: github
+    url: https://github.com/shermdog/storedog-backend/tree/ecs
+docs:
+  - name: Deployment Information
+    provider: link
+    url: https://docs.datadoghq.com/
+  - name: Schema
+    provider: link
+    url: https://docs.datadoghq.com/
+tags: []
