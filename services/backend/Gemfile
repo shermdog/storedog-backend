@@ -97,4 +97,4 @@ gem 'oj'
 gem 'sassc', github: 'sass/sassc-ruby', group: :development
 
 # monitoring
-gem 'ddtrace', require: 'ddtrace/auto_instrument'
+gem 'ddtrace', '~>1.8', require: 'ddtrace/auto_instrument'

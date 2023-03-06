@@ -8,7 +8,7 @@ FROM python:3.9.6-slim-buster
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
     apt-get upgrade --yes && \
-    apt-get install --yes build-essential libpq-dev && \
+    apt-get install --yes build-essential libpq-dev curl && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -21,6 +21,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Set default Flask app and development environment
 ENV FLASK_APP=ads.py
+
+# Set some default DD tags
+ENV DD_SERVICE=ads
+ENV DD_VERSION=3.1.2
 
 # Start the app using ddtrace so we have profiling and tracing
 ENTRYPOINT ["ddtrace-run"]
